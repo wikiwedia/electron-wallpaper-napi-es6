@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "electron-wallpaper", "electron-wallpaper.vcxproj", "{15DA86B2-201E-D60B-2382-9EAA543AC613}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89A65571-DCCE-A8FF-0C11-203221D80729} = {89A65571-DCCE-A8FF-0C11-203221D80729}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{89A65571-DCCE-A8FF-0C11-203221D80729}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Users)", "..\Users", "{83FD2216-DE8C-3729-D4EA-3618B14F3F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Windows)", "..\Users\Windows", "{458CB5C0-77B3-B42C-A04F-67EE1D5D76A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Desktop)", "..\Users\Windows\Desktop", "{7B1B7BC8-5F21-5556-13FA-0B300C08B6D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(electron-wallpaper-napi)", "..\Users\Windows\Desktop\electron-wallpaper-napi", "{19F37FEB-7AE9-A5CD-2657-876B3FECE0B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Users\Windows\Desktop\electron-wallpaper-napi\node_modules", "{D642A0D2-466C-45F3-C7A7-D7E1AC3ACDDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Users\Windows\Desktop\electron-wallpaper-napi\node_modules\node-addon-api", "{F534BEE8-849D-CD58-FD15-DBFB5724A791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\Users\Windows\Desktop\electron-wallpaper-napi\node_modules\node-addon-api\src", "{E4EF17E1-BE48-F631-1121-684B25F684C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15DA86B2-201E-D60B-2382-9EAA543AC613}.Release|x64.ActiveCfg = Release|x64
+		{15DA86B2-201E-D60B-2382-9EAA543AC613}.Release|x64.Build.0 = Release|x64
+		{15DA86B2-201E-D60B-2382-9EAA543AC613}.Debug|x64.ActiveCfg = Debug|x64
+		{15DA86B2-201E-D60B-2382-9EAA543AC613}.Debug|x64.Build.0 = Debug|x64
+		{89A65571-DCCE-A8FF-0C11-203221D80729}.Release|x64.ActiveCfg = Release|x64
+		{89A65571-DCCE-A8FF-0C11-203221D80729}.Release|x64.Build.0 = Release|x64
+		{89A65571-DCCE-A8FF-0C11-203221D80729}.Debug|x64.ActiveCfg = Debug|x64
+		{89A65571-DCCE-A8FF-0C11-203221D80729}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{458CB5C0-77B3-B42C-A04F-67EE1D5D76A4} = {83FD2216-DE8C-3729-D4EA-3618B14F3F2D}
+		{7B1B7BC8-5F21-5556-13FA-0B300C08B6D8} = {458CB5C0-77B3-B42C-A04F-67EE1D5D76A4}
+		{19F37FEB-7AE9-A5CD-2657-876B3FECE0B7} = {7B1B7BC8-5F21-5556-13FA-0B300C08B6D8}
+		{D642A0D2-466C-45F3-C7A7-D7E1AC3ACDDE} = {19F37FEB-7AE9-A5CD-2657-876B3FECE0B7}
+		{F534BEE8-849D-CD58-FD15-DBFB5724A791} = {D642A0D2-466C-45F3-C7A7-D7E1AC3ACDDE}
+		{E4EF17E1-BE48-F631-1121-684B25F684C6} = {F534BEE8-849D-CD58-FD15-DBFB5724A791}
+		{89A65571-DCCE-A8FF-0C11-203221D80729} = {E4EF17E1-BE48-F631-1121-684B25F684C6}
+	EndGlobalSection
+EndGlobal

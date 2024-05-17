@@ -1,0 +1,4 @@
+C:\Users\Windows\Desktop\electron-wallpaper-napi\src\bindings.cc;C:\Users\Windows\Desktop\electron-wallpaper-napi\build\Release\obj\electron-wallpaper\src\bindings.obj
+C:\Users\Windows\Desktop\electron-wallpaper-napi\src\ew.cc;C:\Users\Windows\Desktop\electron-wallpaper-napi\build\Release\obj\electron-wallpaper\src\ew.obj
+C:\Users\Windows\Desktop\electron-wallpaper-napi\src\swca.cc;C:\Users\Windows\Desktop\electron-wallpaper-napi\build\Release\obj\electron-wallpaper\src\swca.obj
+C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc;C:\Users\Windows\Desktop\electron-wallpaper-napi\build\Release\obj\electron-wallpaper\win_delay_load_hook.obj

@@ -1,0 +1,48 @@
+{
+  "name": "electron-wallpaper-napi",
+  "version": "0.0.5",
+  "description": "Node module that allows you to attach a window as wallpaper in Windows.",
+  "main": "lib/electron-wallpaper.js",
+  "homepage": "https://github.com/ZhangZisu/electron-wallpaper",
+  "gypfile": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ZhangZisu/electron-wallpaper.git"
+  },
+  "keywords": [
+    "window",
+    "dashboard",
+    "electron",
+    "windows"
+  ],
+  "scripts": {
+    "lint": "eslint lib example",
+    "example": "electron ./example",
+    "configure": "node-gyp configure",
+    "build": "node-gyp rebuild",
+    "rebuild": "node-gyp rebuild",
+    "rebuild-electron": "electron-rebuild -f",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Zisu Zhang <admin@zhangzisu.cn>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^7.1.6",
+    "electron-rebuild": "^1.8.8",
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "node-gyp": "^5.0.7"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^2.0.0"
+  },
+  "os": [
+    "win32"
+  ]
+}
