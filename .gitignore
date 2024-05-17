@@ -1,0 +1,10 @@
+# Ignore the entire node_modules directory
+node_modules/
+
+# But not the node-addon-api directory inside node_modules
+!node_modules/node-addon-api
+
+# If node-addon-api has subdirectories, you may need to add these lines to unignore its contents
+!node_modules/node-addon-api/*
+
+build/

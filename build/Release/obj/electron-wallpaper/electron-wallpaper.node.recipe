@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Windows\Desktop\electron-wallpaper-napi\build\Release\electron-wallpaper.node</FullPath>
+      <FullPath>C:\Users\Windows\Desktop\electron-wallpaper-napi-es6\build\Release\electron-wallpaper.node</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

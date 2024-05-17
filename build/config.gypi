@@ -418,7 +418,7 @@
     "globalconfig": "C:\\Users\\Windows\\AppData\\Roaming\\npm\\etc\\npmrc",
     "global_prefix": "C:\\Users\\Windows\\AppData\\Roaming\\npm",
     "init_module": "C:\\Users\\Windows\\.npm-init.js",
-    "local_prefix": "C:\\Users\\Windows\\Desktop\\electron-wallpaper-napi",
+    "local_prefix": "C:\\Users\\Windows\\Desktop\\electron-wallpaper-napi-es6",
     "node_gyp": "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
     "npm_version": "10.2.0",
     "prefix": "C:\\Users\\Windows\\AppData\\Roaming\\npm",

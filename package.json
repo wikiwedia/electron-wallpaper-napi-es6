@@ -1,5 +1,5 @@
 {
-  "name": "electron-wallpaper-napi",
+  "name": "electron-wallpaper-napi-es6",
   "version": "0.0.5",
   "description": "Node module that allows you to attach a window as wallpaper in Windows.",
   "main": "lib/electron-wallpaper.js",
@@ -25,7 +25,7 @@
     "rebuild-electron": "electron-rebuild -f",
     "install": "node-gyp rebuild"
   },
-  "author": "Zisu Zhang <admin@zhangzisu.cn>",
+  "author": "pikiwedia <pikiwedia-npm@proton.me>",
   "license": "Apache-2.0",
   "devDependencies": {
     "electron": "^7.1.6",
